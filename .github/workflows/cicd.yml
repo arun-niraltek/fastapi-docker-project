@@ -6,8 +6,7 @@ on:
 
 env:
   IMAGE_NAME: arunniraltek/fastapi-docker-project
-  CONTAINER_NAME: fastapi-docker-project
-
+  
 jobs:
   ci:
     name: Build & Push Docker Image
